@@ -27,6 +27,7 @@ favorite_car_brand = "BMW"
 print(name_surname)
 print(favorite_car_brand)
 
+
 # 5) კომენტარებით ახსენით რა არის debugging-ი.
 
 # debugging-Eror-ის შეცდომების გამოსწორება კოდში
@@ -37,7 +38,6 @@ print(favorite_car_brand)
 # print("Hello World)
 # city = "London"
 # pritn(City)
-
 
 
 print("Hello World")
