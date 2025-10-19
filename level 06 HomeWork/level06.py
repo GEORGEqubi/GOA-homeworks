@@ -21,6 +21,6 @@ num4 =int(input("choose any number one to ten: "))
 num5 =int(input("choose any number one to ten: "))
 
 
-print (int((num1 + num2 + num3 + num4 +num5) / 2))
+print (float((num1 + num2 + num3 + num4 +num5) / 2))
 
 
