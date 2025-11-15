@@ -94,6 +94,12 @@ result1= User_Age>age
 
 print(result1)
 
+My_name = "George"
+
+User_name = input("Enter your name: ")
+
+print(My_name == User_name)
+
 
 
 
