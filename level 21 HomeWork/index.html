@@ -1,0 +1,91 @@
+<!-- 2) შექმენით სარეგისტრაციო ფორმა, საკლასო დავალების მსგავსად და კომენტარებით ახსენით ყველაფერი: -->
+
+<!-- 1) რა არის და რისთვის გამოიყენება radio ტიპის input-ი -->
+<!-- 2) რა არის name ატრიბუტი -->
+<!-- 3) რა არის placeholder ატრიბუტი -->
+<!-- 4) რა არის required ატრიბუტი -->
+<!-- 5) რა არის value ატრიბუტი -->
+
+<!-- radio - ტიპის input-ი გამოიყენება მაშინ როდეასაც, მომხამრებელს უნდა ავარჩევინოთ რამოდენიმე ვარიანტიადან მხოლოდ ერთი. -->
+<!-- name - ატრიბუტი ეს არის ატრიბუტი რომელიც განსაზღვრავს input-ს სახელს თუ როგორ გაიგზავნება ის სერვერზე. -->
+<!-- placeholder - input-ის შიგნით ჩასმული დროებითი ტექსტი რომელიც ანიშნებს მომხმარებელს თუ რა უნდა ჩაწეროს ველში. -->
+<!-- required - არის ატრიბუტი რომელიც მომხმარებელს ველის შევსების გამოტოვების უფლებას არ აძლევს. სავალდებულოა რომ შეავსოს. -->
+<!-- value - input-ის მნიშვნელობა რომლითაც იგზავნება სერვერზე და ინახება ის.  -->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>რეგისტრაცია</title>
+</head>
+    <body>
+        <form>
+  <label for="name">სახელი</label><br> <!--სახელი-->
+    <input 
+        type="text" 
+        id="name" 
+        name="name" 
+        required>
+
+    <br><br>
+   
+    <label for="email">ელ.ფოსტა</label><br> <!--Mail-->
+    <input 
+        type="email" 
+        id="email" 
+        name="email"
+        required>
+    <br><br>
+
+   
+    <label for="password">პაროლი</label><br> <!--password-->
+    <input 
+        type="password" 
+        id="password" 
+        name="password"
+        required>
+    <br><br>
+
+
+    <label for="birthdate">დაბადების თარიღი</label><br> <!--date of birth-->
+    <input 
+        type="date" 
+        id="birthdate" 
+        name="birthdate"
+        required
+    >
+    <br><br>
+
+    
+    <label>გენდერი</label><br> <!--Gender-->
+
+    <input type="radio" id="male" name="gender" value="male" required>
+    <label for="male">მამრობითი</label><br>
+
+    <input type="radio" id="female" name="gender" value="female">
+    <label for="female">მდედრობითი</label><br>
+
+    <br><br>
+
+   
+    <input 
+        type="checkbox" 
+        id="terms" 
+        name="terms"
+        required>
+        
+    <label for="terms">
+        ვეთანხმები საიტის გამოყენების პოლიტიკასა და წესებს
+    </label>
+    <br><br>
+
+  
+    <input type="submit" value="რეგისტრაცია">
+
+    
+
+        </form>
+    
+    
+    </body>
+</html>
+
