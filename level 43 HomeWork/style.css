@@ -1,0 +1,14 @@
+header{
+    text-decoration: underline ;
+    text-decoration-color: red;
+    
+}
+
+main p{
+    background-color: black;
+    color: blue;
+    text-decoration-style: solid;
+    
+}
+
+
