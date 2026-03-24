@@ -1,0 +1,24 @@
+h1{
+    font-weight: 100;
+}
+table{
+    text-align: center;
+    border-collapse: collapse;
+    width: 800px;
+    border-bottom: black;
+    border-top: black;
+    border-left: black;
+    border-right: black;
+}
+
+thead{
+    background-color: rgb(40, 167, 69);
+}
+
+tr:nth-child(2){
+    background-color: rgb(23, 162, 184);
+}
+
+tr:nth-child(4){
+    background-color: rgb(23, 162, 184);
+}

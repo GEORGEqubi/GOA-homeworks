@@ -1,0 +1,21 @@
+table{
+    border-collapse: separate white;
+    border-radius: 5px;
+    
+
+}
+thead{
+    background-color: rgb(126, 193, 67);
+    color: white;
+}
+
+tbody{
+    background-color:rgb(222, 243, 202) ;
+    font-weight: 100;
+    color: rgb(107, 142, 176);
+}
+
+td{
+    text-align: center;
+}
+
