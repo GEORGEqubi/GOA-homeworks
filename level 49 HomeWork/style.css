@@ -1,0 +1,52 @@
+/* Box Model შედგება 4 ძირითადი ნაწილისგან */
+/* Box Model-ის მიხედვით, თითოეული HTML ელემენტი აღიქმება როგორც მართკუთხა ყუთი, რომელიც შედგება */
+
+/* 1. Content (შინაარსი)
+   ეს არის ელემენტის შიგნით არსებული ტექსტი ან სხვა ელემენტები */
+
+ /* 2. Padding (შიდა დაშორება)
+   Content-სა და Border-ს შორის არსებული სივრცე */
+
+/* 3. Border (ჩარჩო)
+   Content + Padding-ის გარშემო არსებული საზღვარი */
+
+/* 4. Margin (გარე დაშორება)
+   ელემენტსა და სხვა ელემენტებს შორის დაშორება */
+
+
+h1{
+    background-color: green;
+    text-align: center;
+    border-radius: 30px;
+}
+
+div{
+    text-align: center;
+    background-color: cadetblue;
+    border-radius: 30px;
+    width: 300px;
+    margin: 20px auto;        
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 10px;  
+}
+
+
+button {
+  width: 100%;
+  padding: 10px;
+  background-color: #007BFF;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+ }
+
+ input {
+  width: 100%;
+  padding: 10px;            
+  margin-bottom: 15px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  box-sizing: border-box;  
+}

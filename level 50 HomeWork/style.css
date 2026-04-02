@@ -1,0 +1,19 @@
+/* Flexbox (Flexible Box Layout) არის CSS-ის ლეაუთის სისტემა, რომელიც გამოიყენება ელემენტების მარტივად და მოქნილად განლაგებისთვის */
+
+.parent{
+    display: flex;
+    background-color: red;
+    flex-direction: column;
+    justify-content: center;
+    align-items: end;
+}
+
+.child{
+    background-color: black;
+    width: 100px;
+      height: 100px;
+      margin: 10px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+}
