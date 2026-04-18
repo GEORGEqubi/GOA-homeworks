@@ -1,0 +1,18 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    height: 100vh;
+    background-color: white;
+
+    display: flex;
+    justify-content: center;
+
+    background-image: url(.//img/image.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
