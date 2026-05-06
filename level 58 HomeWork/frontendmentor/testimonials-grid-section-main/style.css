@@ -1,0 +1,313 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    height: 100vh;
+    background-color: rgb(237, 242, 248);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+div{
+    border-radius: 15px;
+    overflow: hidden;
+}
+span{
+    color: #e7eaeeff;
+    font-size: 18px;
+    font-weight: 600;
+    margin-bottom: 15px;
+    position: relative;
+    
+    padding:0;
+    margin: 0;
+    color:hsl(0, 0%, 81%)
+}
+
+.p1{
+    color: white;
+    font-size: 24px;
+    font-weight: bold;
+    position: relative;
+    bottom: 40px;
+
+
+    
+}
+.c1{
+    color: hsl(0, 0%, 81%);
+    font: 50;
+}
+
+.ver, .ser{
+    color:white;
+    padding-left: 70px;
+
+}
+ .ser{
+        font-size: 24px;
+    }
+    
+
+
+.ver{
+    position: relative;
+    bottom: 40px;
+
+}
+
+
+
+main{
+    display: grid;
+    gap: 30px;
+    grid-template-columns: repeat(7, 250px);
+    grid-template-rows: repeat(5, 150px);
+    grid-template-areas:
+    " d1 d1 d1 d2 d2 d5 d5"
+    " d1 d1 d1 d2 d2 d5 d5"
+    " d3 d3 d4 d4 d4 d5 d5"
+    " d3 d3 d4 d4 d4 d5 d5"
+    " d3 d3 d4 d4 d4 d5 d5"
+    ;
+
+   
+}
+
+.daniel{
+    background-color: rgb(115, 63, 200);
+    grid-area: d1;
+    padding: 25px;
+    color: hsl(0, 0%, 81%);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    text-indent: 0;
+    box-shadow:
+    0 20px 40px rgba(0, 0, 0, 0.2),
+    0 10px 15px rgba(0, 0, 0, 0.1);
+    
+    .img1{
+        border-radius: 50%;
+        position: relative;
+        right: 10px;
+        bottom: 60px;
+        border: solid (263, 55%, 52%);
+        width: 60px;
+    }
+    .im2{
+        width: 110px;
+        position: fixed;
+        left: 900px;
+    }
+    
+}
+
+    .jona{
+        border-radius:50% ;
+        position: absolute;
+        top: 295px;
+        left: 1170px;
+        border: solid white 1px;
+        
+        
+    }
+    
+
+.Jonathan{
+    background-color: rgb(73, 85, 107);
+    grid-area: d2;
+
+    padding: 25px;
+    color: hsl(0, 0%, 81%);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    text-indent: 0;
+
+    box-shadow:
+    0 20px 40px rgba(0, 0, 0, 0.2),
+    0 10px 15px rgba(0, 0, 0, 0.1);
+
+
+}
+.jonap{
+    position: relative;
+    bottom: 20px;
+}
+
+.theteam{
+    color: white;
+    font-size: 24px;
+    font-weight: bold;
+    position: relative;
+    bottom: 40px;
+
+    padding: 0;
+    margin: 0;
+
+}
+
+.Jeanette{
+    background-color: rgb(255, 255, 255);
+    grid-area: d3;
+
+    padding: 25px;
+    color: hsl(0, 0%, 81%);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    text-indent: 0;
+
+    box-shadow:
+    0 20px 40px rgba(0, 0, 0, 0.2),
+    0 10px 15px rgba(0, 0, 0, 0.1);
+}
+.janet{
+    border-radius: 50%;
+    position: absolute;
+    bottom: 720px;
+    left: 340px;
+}
+.kk{
+    left: 70px;
+}
+.ll{
+    color:white
+}
+.janep{
+    color: #676d7eff;
+    padding: 0;
+    margin: 0;
+    padding-left: 70px;
+}
+.p22{
+    color: hsl(219, 29%, 14%);
+    font-size: xx-large;
+    padding: 0;
+    position:relative;
+    bottom: 160px;
+    font-weight: 700;
+}
+
+
+.sp{
+    position: relative;
+    bottom: 190px;
+    
+    font-size: 22px;
+}
+.d3{
+    position: relative;
+    bottom: 90px;
+}
+
+.Patrick{
+    background-color: rgb(25, 31, 45);
+    grid-area: d4;
+
+    padding: 25px;
+    color: hsl(0, 0%, 81%);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    text-indent: 0;
+
+    box-shadow:
+    0 20px 40px rgba(0, 0, 0, 0.2),
+    0 10px 15px rgba(0, 0, 0, 0.1);
+    
+    .patim{
+        width: 60px;
+        border-radius: 50%;
+        border: solid hsl(263, 55%, 52%) 1px;
+        position: relative;
+        bottom: 15px;
+    }
+
+    .patp{
+        position: relative;
+        left: 80px;
+        bottom: 110px;
+
+    }
+    
+        .pp2{
+            font-size: 20px;
+            color: white;
+        }
+        .pp3{
+            position: relative;
+            bottom: 155px;
+        }
+
+        .patt{
+            color: white;
+            font-size: 30px;
+            position: relative;
+            bottom: 150px;
+        }
+
+        .sppat{
+            position: relative;
+            bottom: 150px;
+            font-size:18px;
+        }
+}
+
+.Kira{
+    background-color: rgb(255, 255, 255);
+    grid-area: d5;
+
+
+    padding: 25px;
+    
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    text-indent: 0;
+
+    box-shadow:
+    0 20px 40px rgba(0, 0, 0, 0.2),
+    0 10px 15px rgba(0, 0, 0, 0.1);
+
+
+    .kirim{
+        border-radius: 50%;
+        width: 60px;
+    }
+
+    .kp{
+        font-size: 38px;
+    }
+
+    .kirp{
+        position: relative;
+        left: 90px;
+        bottom: 130px;
+    }
+    .kpp1{
+        font-size:22px;
+        color: #48556aff;
+    }
+
+    .kpp{
+        position: relative;
+        bottom: 200px;
+    }
+
+    .kp{
+        position: relative;
+        bottom: 250px;
+    }
+
+    .kirasp{
+        position:relative;
+        bottom: 290px;
+
+    }
+}
